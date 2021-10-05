@@ -56,8 +56,10 @@ Error conditions:
 --------------------------------------------------------------------------
 """
 
-import operator
+# Allows for functionality of operators
+import operator 
 
+# Support for python 2
 try:
     input = raw_input
 except NameError:
@@ -67,12 +69,14 @@ except NameError:
 # Constants
 # ------------------------------------------------------------------------
 
+# No constants
 
 # ------------------------------------------------------------------------
 # Global variables
 # ------------------------------------------------------------------------
 
-operators = {
+# Establishes dictionary of operators
+operators = { 
   "+" : operator.add,
   "-" : operator.sub,
   "*" : operator.mul,
@@ -86,22 +90,25 @@ operators = {
 # Functions
 # ------------------------------------------------------------------------
 
+# Define function thtav takes user input and performs operation
 def get_user_input():
   """Get input from the user; two numbers and an operator"""
   try:
-    number1 = float(input("Enter the first number: "))  
-    number2 = float(input("Enter the second number: "))
-    operator = input("Enter the operator (valid operators are +,-,*,/,>>,<<,%, and **): ")
-    if (operator == "<<") or (operator == ">>"):
+    number1 = float(input("Enter the first number: "))  #Defines first number variable based on user input
+    number2 = float(input("Enter the second number: ")) #Defines second number variable based on user input
+    operator = input("Enter the operator (valid operators are +,-,*,/,>>,<<,%, and **): ") #Defines operator variable based on user input
+    #Converts variable to integer if operator is lshift or rshift
+    if (operator == "<<") or (operator == ">>"): 
       number1 = int(number1)
       number2 = int(number2)
 
-    return (number1, number2, operator)
+    return (number1, number2, operator) #Returns value of each variable
+  #Displays error message if unsupported value is inputted by user
   except: 
     print("Invalid Input")
   return(None, None, None)
-  
 # End def
+
 
 # ------------------------------------------------------------------------
 # Main script
@@ -113,14 +120,13 @@ if __name__ == "__main__":
     #Get user input
     (number1, number2, operator) = get_user_input()
     
-    #Get function to exedut from operators dictionary
+    #Get function to execute from operators dictionary
     function = operators.get(operator, None)
     
-    #Check if there was not an error; Exit the program
+    #Check if there was an error; Exit the program
     if (number1 is None) or (number2 is None) or (function is None):
       print("Exiting")
       break
   
     #Calculate results and print
     print(function(number1, number2))
-    
