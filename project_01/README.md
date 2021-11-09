@@ -1,5 +1,5 @@
 # Portable Smart Vanity Mirror using BeagleBone Black
-##ENGI 301 Course
+## ENGI 301 Course
 
 This repository contains the code and instructions required to construct a portable, touchscreen smart mirror that allows you to receive weather and news updates for the day.
 
