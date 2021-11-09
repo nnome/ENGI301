@@ -8,12 +8,12 @@ For more detailed instructions on the motivation for this project, schematics, a
 ## Instructions
 
 #### To initialize the Beagle Bone Black:
-1) Begin by flashing the SD card that ill be used in the BeagleBone
-2) Enter the cloud9 IDE temrinal (192.168.7.2:300)
+1) Begin by flashing the SD card that will be used in the BeagleBone
+2) Enter the cloud9 IDE terminal (192.168.7.2:300)
 3) Connect to wifi and enable wifi
 4) Update using "sudo apt-get update"
 5) Download PyOWM for weather data by entering "sudo pip3 install pyowm"
-6) Dowlonad pyqt GUI by entering "sudo apt-get install python3-pyqt5"
+6) Download pyqt GUI by entering "sudo apt-get install python3-pyqt5"
 
 #### To assemble hardware of device:
 1) Connect BeagleBone Black to computer by inserting miniUSB side of cable into USB Client port and USB side of cable into Computer port
