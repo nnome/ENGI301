@@ -13,6 +13,16 @@ To access the repository with detailed code for the device, visit: https://githu
 1) Click on the 'docs' folder
 2) Click on 'ENGI301_project_02_proposal.pptx'
 
+#### To view Assembly Document:
+1) Click on the 'docs' folder
+4) Click on the 'SmartMirrorAssemblyDocument.pdf'
+
+#### To view Board Layout:
+1) Click on the 'PCB' Folder
+2) Click on the 'EAGLE' sub-folder
+3) Click on the 'Layout' sub-folder
+4) Click on the 'SmartMirror.brd'
+
 #### To view Library:
 1) Click on the 'PCB' Folder
 2) Click on the 'EAGLE' sub-folder
@@ -23,12 +33,13 @@ To access the repository with detailed code for the device, visit: https://githu
 1) Click on the 'PCB' Folder
 2) Click on the 'EAGLE' sub-folder
 3) Click on the 'Schematics' sub-folder
-4) Click on the 'SmartMirrorSchematic.pdf'
+4) Click on the 'SmartMirror.sch'
 
-#### To view Layout:
+##### To view Schematics pdf:
 1) Click on the 'PCB' Folder
 2) Click on the 'EAGLE' sub-folder
-3) Click on the 'Layout'
+3) Click on the 'Schematics' sub-folder
+4) Click on the 'SmartMirrorSchematic.pdf'
 
 #### To view Bill of Materials:
 1) Click on the 'PCB' Folder
