@@ -17,21 +17,21 @@ To access the repository with detailed code for the device, visit: https://githu
 1) Click on the 'PCB' Folder
 2) Click on the 'EAGLE' sub-folder
 3) Click on the 'Library' sub-folder
-4) Click on the 'SmartMirror' library
+4) Click on the 'SmartMirror.lbr'
 
 ##### To view Schematics:
-1) Click on the PCB Folder
-2) Click on the EAGLE sub-folder
+1) Click on the 'PCB' Folder
+2) Click on the 'EAGLE' sub-folder
 3) Click on the 'Schematics' sub-folder
-4) Click on the Schematics pdf
+4) Click on the 'SmartMirrorSchematic.pdf'
 
 #### To view Layout:
-1) Click on the PCB Folder
-2) Click on the EAGLE sub-folder
-3) Click on the 'Layout' sub-folder
+1) Click on the 'PCB' Folder
+2) Click on the 'EAGLE' sub-folder
+3) Click on the 'Layout'
 
 #### To view Bill of Materials:
-1) Click on the PCB Folder
-2) Click on the EAGLE sub-folder
-3) Click on the 'Manufacturing' sub-folder
-4) Click on the 'BillofMaterials' document
+1) Click on the 'PCB' Folder
+2) Click on the 'EAGLE' sub-folder
+3) Click on the 'MFG' (Manufacturing) sub-folder
+4) Click on the 'SmartMirror.csv'
